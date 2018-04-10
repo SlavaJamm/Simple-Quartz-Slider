@@ -1,0 +1,35 @@
+.slider-wrap{
+	position: relative;
+
+}
+.quartz-slider{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.quartz-slider__item{
+	height: 100%;
+	width: 100%;
+	background-position: center!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+}
+.quartz-slider .nav-quartz-slider{
+	position: absolute;
+}
+.nav-quartz-slider.left, .nav-quartz-slider.right{
+	width: 50px;
+	height: 50px;
+	top: 45%;
+	cursor: pointer;
+	position: absolute;
+}
+.nav-quartz-slider.left:hover, .nav-quartz-slider.right:hover{
+	opacity: 0.7;
+}
+.nav-quartz-slider.left{
+	left: 0;
+}
+.nav-quartz-slider.right{
+	right: 0;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery responsive Quartz Slider | Demo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="libs/quartz-slider/quartz-slider.css">
+</head>
+<body>
+	
+	<div class="slider-wrap">
+	<!-- 
+		THIS IS SLIDER WRAP AS EXAMPLE
+		CAUTION!!! SLIDER WRAP MUST HAVE FIXED WIDTH AND HEIGHT.
+		In this example WIDTH = 100vw and HEIGHT = 100wh. 
+		(style.css)
+	-->
+
+		<div class="quartz-slider">
+			
+			<!-- 
+				LINK BACKGROUND URL TO YOUR IMG AS AN EXAMPLE
+			-->
+			<div 
+				class="quartz-slider__item"
+				style="background: url(img/1.jpg);"
+			>
+			</div>
+			<div 
+				class="quartz-slider__item"
+				style="background: url(img/2.jpg);"
+			>
+			</div>
+			<div 
+				class="quartz-slider__item"
+				style="background: url(img/3.jpg);"
+			>
+			</div>
+			<div 
+				class="quartz-slider__item"
+				style="background: url(img/4.jpg);"
+			>
+			</div>
+			<div 
+				class="quartz-slider__item"
+				style="background: url(img/5.jpg);"
+			>
+			</div>
+		</div>
+
+		<img class="nav-quartz-slider left" src="libs/quartz-slider/nav/right.svg"></img>
+		<img class="nav-quartz-slider right" src="libs/quartz-slider/nav/left.svg"></img>
+
+
+	</div>
+
+	<!-- 
+		THIS SLIDER NEEDS jQUERY TO WORK 
+	-->
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E"
+		crossorigin="anonymous">
+	 </script>
+	<script src="libs/quartz-slider/quartz-slider.js"></script>
+</body>
+</html>
